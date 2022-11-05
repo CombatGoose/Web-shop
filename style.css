@@ -1,0 +1,35 @@
+header {
+    height: 93px;
+    left: 0px;
+    top: 0px;
+    background: #34343A;
+}
+.logo {
+    width: 79px;
+height: 64px;
+margin-left: 16px;
+margin-top: 14px
+}
+.search {
+    width: 880px;
+height: 43px;
+margin-left: 90px;
+margin-top: 23px;
+border-radius: 10px;
+}
+.signUp {
+margin-left: 240px;
+margin-top: 14px;
+}
+.sent {
+    color: white;
+    background-color: #62A5F3;
+    border-radius: 10px;
+    width: 150px;
+    height: 43px;
+    font-size: 28px;
+  margin-top: -50px;
+  padding-left: 25px;
+  padding-top: 6px;
+  margin-left: 1085px;
+}
