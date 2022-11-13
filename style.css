@@ -18,6 +18,7 @@ border-radius: 10px;
 vertical-align: middle;
 margin-top: -50px;
 border: none;
+font-family: 'Roboto Condensed', sans-serif;
 }
 .signUp {
     vertical-align: middle;
@@ -26,6 +27,7 @@ margin-left: 320px;
 margin-top: -55px;
 }
 .sent {
+    font-family: 'Roboto Condensed', sans-serif;
     color: white;
     background-color: #62A5F3;
     border-radius: 10px;
@@ -40,6 +42,7 @@ margin-top: -55px;
   border: none;
 }
 .navBar {
+    font-family: 'Roboto Condensed', sans-serif;
     vertical-align: middle;
     margin-top: -0.5px;
     width: 160px;
@@ -71,6 +74,7 @@ margin-top: -55px;
     margin-left: -45px;
 }
 .main {
+    font-family: 'Roboto Condensed', sans-serif;
     vertical-align: middle;
     color: #524B4B;
     margin-top: -300px;
@@ -204,4 +208,21 @@ border-radius:10px;
     vertical-align: middle;
     margin-top: -53px;
     margin-left: 1300px;
+}
+.characteristics {
+    color: #62A5F3;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.mac {
+    margin-top: -125px;
+    margin-left: 350px;
+}
+.as {
+    margin-top: -80px;
+    margin-left: 730px;
+}
+.len {
+    margin-top: -85px;
+    margin-left: 1110px;
 }
