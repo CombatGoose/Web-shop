@@ -51,7 +51,14 @@ margin-top: -55px;
     color: #524B4B;
     font-size: 22px;
     padding-left: 50px;
-    display: inline-block; 
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main {
+    display: flex;
+    flex-direction: row;
 }
 .laptop {
     vertical-align: middle;
@@ -73,71 +80,37 @@ margin-top: -55px;
     margin-top: -110px;
     margin-left: -45px;
 }
-.main {
-    font-family: 'Roboto Condensed', sans-serif;
-    vertical-align: middle;
-    color: #524B4B;
-    margin-top: -300px;
-    display: inline-block;
-}
-.macbook {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 70px; 
-    border: #62A5F3 solid 2px;
-    border-radius: 10px;
+.l {
+    margin-top: 150px;
+   margin-left: 100px;
     width: 303px; 
     height: 107px;
     padding-top: 106px;
-    margin-top: 160px;
-}
-.asus {
-    display: inline-block;
-    vertical-align: middle;
-    width: 303px; 
-    height: 107px;
-    padding-top: 106px;
-    margin-left: 70px; 
     border: #62A5F3 solid 2px;
     border-radius: 10px;
-    margin-top: 160px;
 }
-.lenovo {
-    display: inline-block;
-vertical-align: middle;
-width: 303px; 
-height: 107px;
-padding-top: 106px;
-border: #62A5F3 solid 2px;
-border-radius: 10px;
-margin-top: 160px;
-margin-left: 70px;
+.i {
+width: 303px;
+    height: 106px;
+    border-radius: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-top: -814px;
+    margin-left: 311.7px;
 }
 .imgM {
-    width: 303px;
-    height: 106px;
-    vertical-align: middle;
-    margin-left: 285.5px;
-    margin-top: -887px;
-    border-radius: 10px;
-}
-.imgA {
-    width: 303px;
-    height: 106px;
-    vertical-align: middle;
-    margin-left: 73px;
-    margin-top: -887px;
-    border-radius: 10px;
+    margin-left: 717.5px;
 }
 .imgL {
-width: 303px;
-height: 106px;
-vertical-align: middle;
-margin-left: 73.5px;
-margin-top: -887px;
-border-radius:10px;
+    vertical-align: middle;
+    margin-left: 1124px;
+    margin-top: -850px;
+    height: 79px;
 }
-.buy1 {
+.imgA {
+    height: 80.5px;
+}
+.b {
     vertical-align: middle;
     width: 75px;
     height: 35px;
@@ -145,69 +118,46 @@ border-radius:10px;
     background-color: #62A5F3;
     border-radius:10px;
     margin-top: -635px;
-    margin-left: 285px;
+    margin-left: 311.5px;
     border: none;
 }
 .buy2 {
-    vertical-align: middle;
-    width: 75px;
-    height: 35px;
-    color: white;
-    background-color: #62A5F3;
-    border-radius:10px;
-    margin-top: -635px;
-    margin-left: 301px;
-    border: none;
+    margin-left: 325px;
 }
 .buy3 {
-    vertical-align: middle;
-    width: 75px;
-    height: 35px;
-    color: white;
-    background-color: #62A5F3;
-    border-radius:10px;
-    margin-top: -635px;
-    margin-left: 301px;
-    border: none;
+    margin-left: 327px;
 }
-.imgBuy1 {
+.v {
     width: 30px;
     height: 30px;
     vertical-align: middle;
-    margin-top: -670px;
-    margin-left: 360px;
+    margin-left: 390px;
+    vertical-align: middle;
+    margin-top: -338px;
 }
 .imgBuy2 {
-    width: 30px;
-    height: 30px;
-    vertical-align: middle;
-    margin-top: -670px;
-    margin-left: 345px;
+    margin-left: 370px;
 }
 .imgBuy3 {
-    width: 30px;
-    height: 30px;
-    vertical-align: middle;
-    margin-top: -670px;
-    margin-left: 345px;
+    margin-left:380px;
 }
 .sums {
     color: #62A5F3;
 }
 .k50 {
+    margin-left: 970px;
     vertical-align: middle;
-    margin-top: -361px;
-    margin-left: 540px;
+    margin-top: -346px;
 }
 .k30 {
+    margin-left: 570px;
     vertical-align: middle;
-    margin-top: -53px;
-    margin-left: 920px;
+    margin-top: -51px;
 }
 .k40 {
+    margin-left: 1370px;
     vertical-align: middle;
-    margin-top: -53px;
-    margin-left: 1300px;
+    margin-top: -54px;
 }
 .characteristics {
     color: #62A5F3;
@@ -215,14 +165,14 @@ border-radius:10px;
     vertical-align: middle;
 }
 .mac {
-    margin-top: -125px;
-    margin-left: 350px;
+    margin-top: -85px;
+    margin-left: 780px;
 }
 .as {
-    margin-top: -80px;
-    margin-left: 730px;
+    margin-top: -415px;
+    margin-left: 371px;
 }
 .len {
-    margin-top: -85px;
-    margin-left: 1110px;
+    margin-top: -78px;
+    margin-left: 1190px;
 }
