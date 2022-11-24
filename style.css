@@ -3,28 +3,22 @@ header {
     left: 0px;
     top: 0px;
     background: #34343A;
+    display: flex;
+    align-items: center;
 }
 .logo {
     width: 79px;
 height: 64px;
-margin-left: 16px;
-margin-top: 14px
+order: 1;
 }
 .search {
-    width: 840px;
-height: 37px;
-margin-left: 80px;
+    width: 60%;
+    height: 40%;
 border-radius: 10px;
-vertical-align: middle;
-margin-top: -50px;
 border: none;
 font-family: 'Roboto Condensed', sans-serif;
-}
-.signUp {
-    vertical-align: middle;
-    width: 130px;
-margin-left: 320px;
-margin-top: -55px;
+order: 2;
+margin-left: 100px;
 }
 .sent {
     font-family: 'Roboto Condensed', sans-serif;
@@ -34,18 +28,22 @@ margin-top: -55px;
     width: 96px;
     height: 37px;
     font-size: 18px;
-  margin-top: -85px;
   padding-top: 6px;
-  margin-left: 1030px;
   text-align: center;
-  vertical-align: middle;
   border: none;
+  order: 3;
+  margin-left: 30px;
+}
+.signUp {
+    width: 130px;
+    order: 4;
+    margin-left: 300px;
 }
 .navBar {
     font-family: 'Roboto Condensed', sans-serif;
     vertical-align: middle;
     margin-top: -0.5px;
-    width: 160px;
+    width: 10%;
     height: 600px;
     background-color: #D9D9D9;
     color: #524B4B;
@@ -64,11 +62,13 @@ main {
     vertical-align: middle;
     margin-top: -440px;
     margin-left: -50px;
+ ;
 }
 .phone {
     vertical-align: middle;
     margin-top: -345px;
     margin-left: -52px;
+ 
 }
 .display {
     vertical-align: middle;
@@ -82,12 +82,13 @@ main {
 }
 .l {
     margin-top: 150px;
-   margin-left: 100px;
-    width: 303px; 
-    height: 107px;
+   margin-left: 110px;
+   width: 303px; 
+   height: 107px;
     padding-top: 106px;
     border: #62A5F3 solid 2px;
     border-radius: 10px;
+    display: flex;
 }
 .i {
 width: 303px;
@@ -99,13 +100,14 @@ width: 303px;
     margin-left: 311.7px;
 }
 .imgM {
-    margin-left: 717.5px;
+    margin-left: 727.8px;
 }
 .imgL {
     vertical-align: middle;
-    margin-left: 1124px;
+    margin-left: 1144.5px;
     margin-top: -850px;
-    height: 79px;
+    width: 300px;
+    height: 80px;
 }
 .imgA {
     height: 80.5px;
@@ -122,10 +124,10 @@ width: 303px;
     border: none;
 }
 .buy2 {
-    margin-left: 325px;
+    margin-left: 335px;
 }
 .buy3 {
-    margin-left: 327px;
+    margin-left: 338px;
 }
 .v {
     width: 30px;
@@ -136,16 +138,16 @@ width: 303px;
     margin-top: -338px;
 }
 .imgBuy2 {
-    margin-left: 370px;
+    margin-left: 385px;
 }
 .imgBuy3 {
-    margin-left:380px;
+    margin-left:385px;
 }
 .sums {
     color: #62A5F3;
 }
 .k50 {
-    margin-left: 970px;
+    margin-left: 985px;
     vertical-align: middle;
     margin-top: -346px;
 }
@@ -155,7 +157,7 @@ width: 303px;
     margin-top: -51px;
 }
 .k40 {
-    margin-left: 1370px;
+    margin-left: 1400px;
     vertical-align: middle;
     margin-top: -54px;
 }
@@ -166,7 +168,7 @@ width: 303px;
 }
 .mac {
     margin-top: -85px;
-    margin-left: 780px;
+    margin-left: 790px;
 }
 .as {
     margin-top: -415px;
@@ -174,5 +176,27 @@ width: 303px;
 }
 .len {
     margin-top: -78px;
-    margin-left: 1190px;
+    margin-left: 1210px;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+.red {
+    background-color: red;
+    order: 27;
+    flex-basis: auto;
+    flex-grow: 24;
+    flex-shrink: 1;
+}
+.blue {
+    background-color: blue;
+    order: 120;
+    flex-grow: 6;
+    height: 600px;
+}
+.green {
+    background-color: green;
+    order: 18;
+    flex-grow: 12;
 }
